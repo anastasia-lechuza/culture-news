@@ -1,0 +1,305 @@
+html,
+body {
+    
+    min-width: 1440px;
+    
+    background: #FFFFFF;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+}
+
+
+header.header-style {
+     
+    text-align: center; 
+}
+
+.logo {
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px; 
+    
+}
+
+.main-navigation {
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+
+    letter-spacing: 2px;
+    word-spacing: 50px;
+
+    color: #000000;
+    text-transform:uppercase; 
+}
+
+.main-navigation li {
+    display: inline;
+    list-style-type: none;
+}
+
+a {
+    color:#000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#FF7931;
+    text-decoration: none;
+}
+
+
+h2 {
+    text-align: center;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    
+    letter-spacing: 2px;
+    text-transform:uppercase;
+
+    color: #000000;
+}
+
+h3 {
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+
+    color: #000000;
+}
+
+h3.top-news {
+    
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 139px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+
+.top-news-banner {
+    min-width: 1440px;
+    height: 464px;
+
+    padding-top: 46px;
+
+    text-align: center;
+    color: white;
+
+    background: url("files/underwater_hotel.jpg") no-repeat;
+    
+}
+
+.banner-img {
+    text-align: center;
+    vertical-align: top;
+}
+
+.banner-text {
+    text-align: center;
+    vertical-align: bottom;
+    
+    padding-bottom: 46px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+.review-title {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
+.review-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  
+    margin-right: 20px;
+    padding: 0;
+  
+    list-style: none;
+      
+}
+
+.review-card {
+    width: 370px;   
+    margin-right: 29px;
+}
+
+
+
+.abonement {
+    
+    display:flex;
+    justify-content:center;
+    
+    min-height: 707px;;
+    margin-top: -50px;
+    margin-bottom: 50px;
+
+    text-align: center;
+    min-height: 556px;
+    background: url("files/abonement-background.png") no-repeat;
+
+}
+
+.abonement-content {
+    padding-top: 80px;;
+}
+
+.abonement-title {
+    margin-bottom: 35px;
+}
+
+.abonement-description {
+    height: 63px;
+    padding: 0px auto;
+    
+}
+
+.abonement-list{
+
+    list-style: none;
+}
+
+hr {
+    text-align: center;
+    margin-top:30px;
+    
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 0px; 
+    width:100px;
+    opacity: 0.4;
+    
+    transform: rotate(0.1deg);
+   }
+
+.abonement-input {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+.main-footer {
+    min-height: 295px;
+    
+    text-align: center;
+
+    background-color: #575757;
+}
+
+.footer-logo {
+
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top: 26px; 
+        
+}
+
+.footer-line {
+   
+    text-align: center;
+    margin-top: 36px;
+
+    width: 1170px;
+    
+    
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+
+.footer-navigation {
+    
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 10px;
+    
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+
+    letter-spacing: 2px;
+    word-spacing: 50px;
+
+    
+    text-transform:uppercase;  
+}
+
+.footer-navigation li {
+    display: inline;
+    
+}
+
+.footer-navigation a {
+    color:white;
+    text-decoration: none;
+}
+
+
+.footer-navigation a:hover {
+    color:#FF7931;
+    text-decoration: none;
+}
+
+.social {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   
+}
+
+.social ul {
+    list-style-type: none;
+}
+
+.social li {
+    display: inline;
+    list-style-type: none;
+
+    margin-right: 10px;
+}
