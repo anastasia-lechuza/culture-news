@@ -9,6 +9,7 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
+    line-height: 150%;
     color: #000000;
 }
 
@@ -43,9 +44,10 @@ header.header-style {
 
     letter-spacing: 2px;
     word-spacing: 50px;
-
+    text-transform:uppercase;
+    
     color: #000000;
-    text-transform:uppercase; 
+     
 }
 
 .main-navigation li {
@@ -107,21 +109,16 @@ h3.top-news {
     color: #FFFFFF;
 }
 
-p {
-    line-height:21px;
-}
 
 .top-news-banner {
     min-width: 1440px;
     height: 464px;
-
+    
+    text-align: center;
     padding-top: 46px;
 
-    text-align: center;
     color: white;
-
     background: url("files/underwater_hotel.jpg") no-repeat;
-    
 }
 
 .banner-img {
@@ -148,7 +145,6 @@ p {
     margin-bottom: 20px;
 }
 
-
 .review-list {
     display: flex;
     flex-wrap: wrap;
@@ -157,8 +153,7 @@ p {
     margin-right: 20px;
     padding: 0;
   
-    list-style: none;
-      
+    list-style: none;   
 }
 
 .review-card {
@@ -166,9 +161,7 @@ p {
     margin-right: 29px;
 
     text-align:left;
-    
 }
-
 
 
 .abonement {
@@ -189,18 +182,12 @@ p {
 }
 
 .abonement-content {
-    margin-top: 80px;
-    
+    text-align: center;
+    margin-top: 80px; 
 }
 
 .abonement-title {
     margin-bottom: 35px;
-}
-
-.abonement-description {
-    height: 63px;
-    margin: 0px;
-    
 }
 
 .abonement-list{
@@ -212,27 +199,25 @@ p {
 
 hr {
     
-    margin:30px auto;
+    margin:25px auto;
     
     border: 1px solid rgba(0, 0, 0, 0.2);
     height: 0px; 
     width:100px;
     opacity: 0.4;
-    
-    
-   }
-
-.abonement-input {
-    
-    margin: 40px auto;
 }
 
+.abonement-input {
+    text-align: center;
+    margin: 30px auto;
+}
 
 
 .main-footer {
     min-height: 295px;
     
     text-align: center;
+    margin-top: -30px;
 
     background-color: #575757;
 }
@@ -243,8 +228,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     
-    padding-top: 26px; 
-        
+    padding-top: 26px;        
 }
 
 .footer-line {
@@ -253,7 +237,6 @@ hr {
     margin-top: 36px;
 
     width: 1170px;
-    
     
     opacity: 0.4;
     border: 1px solid #FFFFFF;
@@ -282,8 +265,7 @@ hr {
 }
 
 .footer-navigation li {
-    display: inline;
-    
+    display: inline;  
 }
 
 .footer-navigation a {
