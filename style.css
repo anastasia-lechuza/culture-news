@@ -161,6 +161,8 @@ h3.top-news {
 .review-card {
     width: 370px;   
     margin-right: 29px;
+
+    text-align:center;
 }
 
 
@@ -168,7 +170,9 @@ h3.top-news {
 .abonement {
     
     display:flex;
-    justify-content:center;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:center;
     
     min-height: 707px;;
     margin-top: -50px;
@@ -181,7 +185,7 @@ h3.top-news {
 }
 
 .abonement-content {
-    padding-top: 80px;;
+    margin-top: 80px;
 }
 
 .abonement-title {
@@ -190,18 +194,21 @@ h3.top-news {
 
 .abonement-description {
     height: 63px;
-    padding: 0px auto;
+    margin: 0px;
     
 }
 
 .abonement-list{
 
     list-style: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 hr {
-    text-align: center;
-    margin-top:30px;
+    
+    margin:30px auto;
+    
     
     border: 1px solid rgba(0, 0, 0, 0.2);
     height: 0px; 
@@ -212,8 +219,8 @@ hr {
    }
 
 .abonement-input {
-    text-align: center;
-    padding-top: 20px;
+    
+    margin: 40px auto;
 }
 
 
